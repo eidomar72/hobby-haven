@@ -54,47 +54,98 @@ A Wolff Brands - Website
   <body class="overflow-x-hidden">
 
     <div class="header menu-active h3 vh-100-l br-l b--light-gray fixed-l top-0 left-0 z-max flex justify-between flex-row-reverse flex-row-l items-center items-start-l">
-      <div class="ph4 pv0-l w-100 w-auto-l flex flex-column-l justify-between items-center">
-        <div class="vh-50-l flex items-end">
-          <a href="" class="no-underline">
-            <h1 class="f4 f3-l ma0">Hobby Haven</h1>
-            <hr class="f4 f3-l ma0">Where Passions Flourish</hr>
+      <div class="ph5 f3 hljs-strong text-center pv0-l w-100 w-auto-l flex flex-column-l justify-center items-center">
+        <div class="vh-50-l grid items-end justify-center">
+          <a href="" class="no-underline justify-center">
+            <div class="grid justify-center text-center"><img width="150px" src="HH-logo.svg"></div>
+            <hr class="ma0 text-center">Hobby Haven</hr>
           </a>
         </div>
 
-        <div class="fixed-l bottom-0 left-0 inline-flex justify-center items-center ma4-l">
-          <a href="https://twitter.com/woIff7" target="_blank" class="o-50 glow">
-            <img class="spin" width="40px" height="37px" src="wolff-logo\Wolff_white_background.png" alt="">
-          </a>
-        </div>
+
       </div>
     </div>
 
     <div class="header menu-active h3 vh-100-l br-l b--light-gray fixed-l top-0 z-max flex justify-between flex-row-reverse flex-row-l items-center items-start-l">
       <div class="ph4 pv0-l w-100 w-auto-l flex flex-column-l justify-between items-center">
-        <div class="vh-50-l flex items-end">
-          <a href="" class="no-underline">
-            <div class="bg-white"><hr class="f4 f3-l ma0">Urban Gardening</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Indoor Hydroponics</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Leather Work</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Drone Racing</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Calligraphy</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Retro Gaming</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">AcroYoga</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Resin Art</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Model Kit</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Woodturning</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Hand Lettering</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Escape Room Challenges</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Embroidery</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Tabletop Role-Playing Games</hr></div>
-            <div class="bg-white"><hr class="f4 f3-l ma0">Home Fitness Training</hr></div>
-          </a>
+        <!-- use vh-80-1 for this section-->
+        <div class="vh-80-l flex items-end">
+          <ul href="" id="main-menu" class="table no-underline">
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Urban Gardening</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Indoor Hydroponics</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Leather Work</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Drone Racing</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Calligraphy</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Retro Gaming</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">AcroYoga</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Resin Art</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Model Kit</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Woodturning</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Hand Lettering</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Escape Room Challenges</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Embroidery</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Tabletop Role-Playing Games</a></div></li>
+            <li class="table-row"><div class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">Home Fitness Training</a></div></li>
+          </ul>
+
+          <!-- use vh-90-1 for this section-->
+          <ul id="urban-gardening" class="table no-underline">
+
+            <div class="flex">
+              <li><button class="back-button f2 pb2" onclick="history.back()"><strong>&#x2190;</strong></button></li>
+              <li><a><button class="back-button f5"><strong>MENU</strong></button></a></li>
+            </div>
+
+            <li class="table-row"><div class="bg-white"><a class="f5 ma0 table-cell article-section-title">ARTICLES</a></div></li>
+            <li class="table-row"><div id="ug1" class="bg-white pv2 ug1"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Sprout Success: Unleash Your Green Thumb with Urban Gardening"</a>
+              <div id="ug1b" class="summary-container ba">
+                  <section class="article-banner">
+                    <img wdith="" height="" src="hobbies\urban-gardening\imgs\banners\r_abundance-organic-growth-rural-meadow-generated-by-ai.jpg">
+                  </section>
+                  <section class="article-section f6 ph3">
+                    In this article, we'll explore the trendy and rewarding realm of urban gardening, packed with tips, ideas, and amazing products to help you sprout success in your own urban garden.
+                  </section>
+              </div>
+            </div></li>
+            <li class="table-row"><div id="ug2" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"From Concrete Jungle to Green Oasis: Mastering Urban Gardening"</a>
+              <div id="ug2b" class="summary-container ba">
+                  <section class="article-banner">
+                    <img wdith="" height="" src="hobbies\urban-gardening\imgs\banners\r_white-flowers-toned-ai-generated-image.jpg">
+                  </section>
+                  <section class="article-section f6 ph3">
+                    Whether you have a small balcony, a rooftop, or just a sunny windowsill, urban gardening offers endless possibilities for connecting with nature and creating a tranquil retreat right in the heart of the city.
+                  </section>
+              </div>
+            </div></li>
+            <li class="table-row"><div id="ug3" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Garden Bliss in the City: Transforming Your Space with Urban Gardening"</a></div></li>
+            <li class="table-row"><div id="ug4" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Grow Where You Are: The Rise of Urban Gardening and How to Get Started"</a></div></li>
+            <li class="table-row"><div id="ug5" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Taiving in the Urban Jungle: Urban Gardening Tips and Tricks"</a></div></li>
+            <li class="table-row"><div id="ug6" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Small Space, Big Harvest: Maximizing Your Urban Garden's Potential"</a></div></li>
+            <li class="table-row"><div id="ug7" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Unlocking Urban Gardening Secrets: How to Create a Lush Paradise in the City"</a></div></li>
+            <li class="table-row"><div id="ug8" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Gardening in the Concrete Playground: Urban Gardening Ideas for Every Space"</a></div></li>
+            <li class="table-row"><div id="ug9" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Greening the City: The Urban Gardening Revolution and Its Benefits"</a></div></li>
+            <li class="table-row"><div id="ug10" class="bg-white pv2"><a href="" class="f5 ma0 table-cell hover-bg-gold">"Planting Joy in the City: Urban Gardening as a Lifestyle and Wellness Trend"</a></div></li>
+          </ul>
         </div>
+
+        <div class="container">
+        		<div class="z-max">
+        			<div class="social-icons">
+        				<ul>
+        					<li><a href="" target="_blank"><i><img class="icon twitter bg-white" width="40px" src="socials/twitter.png"></i></a></li>
+                  <li><a href="" target="_blank"><i><img class="icon facebook bg-white" width="40px" src="socials/facebook.png"></i></a></li>
+        					<li><a href="" target="_blank"><i><img class="icon instagram bg-white" width="40px" src="socials/instagram.png"></i></a></li>
+        					<li><a href="" target="_blank"><i><img class="icon pinterest bg-white" img width="40px" src="socials/pinterest.png"></i></a></li>
+                  <li><a href="" target="_blank"><i><img class="icon whatsapp bg-white" img width="40px" src="socials/whatsapp.png"></i></a></li>
+        				</ul>
+        			</div>
+        		</div>
+        </div>
+
 
         <div class="fixed-l bottom-0 left-0 inline-flex justify-center items-center ma4-l">
           <a href="https://twitter.com/woIff7" target="_blank" class="o-50 glow">
-            <img class="spin" width="40px" height="37px" src="wolff-logo\Wolff_white_background.png" alt="">
+            <img class="spin" width="38px" height="37px" src="wolff-logo\Wolff_white_background.png" alt="">
           </a>
         </div>
       </div>
@@ -103,9 +154,11 @@ A Wolff Brands - Website
     <div id="barba-wrapper" class="z-9999 ml8 mr7-ns bg-white">
       <div class="barba-container mt3" data-namespace="home">
         <div class="toc">
-          <a class="pv3 ph4 ph5-l items-baseline no-underline" target="_blank" href="">
+          <a class="pv3 ph4 ph5-l items-baseline no-underline">
             <section class="ad-top"></section>
-            <section class="article-banner"></section>
+            <section class="article-banner">
+              <img wdith="" height="" src="hobbies\urban-gardening\imgs\banners\r_abundance-organic-growth-rural-meadow-generated-by-ai.jpg">
+            </section>
             <section class="article-header inline-flex justify-center items-center">
               <h1>Sprout Success: Unleash Your Green Thumb with Urban Gardening</h1></section>
             <section class="article-info">
@@ -116,7 +169,7 @@ A Wolff Brands - Website
               <p></p>
             </section>
             <section class="article-section">
-              Welcome to the wonderful world of urban gardening, where the concrete jungle transforms into a vibrant oasis of lush greenery. Whether you have a spacious rooftop, a cozy balcony, or just a tiny windowsill, urban gardening offers a fantastic opportunity to nurture nature and embrace the joy of growing your own plants. In this article, we'll explore the trendy and rewarding realm of urban gardening, packed with tips, ideas, and amazing Amazon products to help you sprout success in your own urban garden.
+              Welcome to the wonderful world of urban gardening, where the concrete jungle transforms into a vibrant oasis of lush greenery. Whether you have a spacious rooftop, a cozy balcony, or just a tiny windowsill, urban gardening offers a fantastic opportunity to nurture nature and embrace the joy of growing your own plants. In this article, we'll explore the trendy and rewarding realm of urban gardening, packed with tips, ideas, and amazing products to help you sprout success in your own urban garden.
             </section>
             <section class="article-section-title">
               <p>Embrace Nature in the Urban Jungle</p>
@@ -153,15 +206,66 @@ A Wolff Brands - Website
             </section>
             <section class="article-section-title-img"><img><figcaption></figcaption></section>
             <section class="ad-right"></section>
-            <section class="share-socials"></section>
+
+
+            <section class="article-section-title">
+              <p>RELATED POSTS</p>
+            </section>
+            <section class="related-posts ml0">
+
+              <div class="r-post-single ba">
+                  <section class="article-banner">
+                    <img wdith="" height="" src="hobbies\urban-gardening\imgs\banners\rs_white-flowers-toned-ai-generated-image.jpg">
+                  </section>
+                  <section class="article-section f6 ph3">
+                    From Concrete Jungle to Green Oasis: Mastering Urban Gardening
+                  </section>
+              </div>
+              <div class="r-post-single ba">
+                  <section class="article-banner">
+                    <img wdith="" height="" src="hobbies\urban-gardening\imgs\banners\rs_white-flowers-toned-ai-generated-image.jpg">
+                  </section>
+                  <section class="article-section f6 ph3">
+                    From Concrete Jungle to Green Oasis: Mastering Urban Gardening
+                  </section>
+              </div>
+              <div class="r-post-single ba">
+                  <section class="article-banner">
+                    <img wdith="" height="" src="hobbies\urban-gardening\imgs\banners\rs_white-flowers-toned-ai-generated-image.jpg">
+                  </section>
+                  <section class="article-section f6 ph3 justify-center">
+                    From Concrete Jungle to Green Oasis: Mastering Urban Gardening
+                  </section>
+              </div>
+              <div class="r-post-single ba">
+                  <section class="article-banner">
+                    <img wdith="" height="" src="hobbies\urban-gardening\imgs\banners\rs_white-flowers-toned-ai-generated-image.jpg">
+                  </section>
+                  <section class="article-section f6 ph3">
+                    From Concrete Jungle to Green Oasis: Mastering Urban Gardening
+                  </section>
+              </div>
+
+            </section>
+
+
+
+            <section>
+              <div class="footer justify-center">
+                <div class="wraper-footer flex justify-center pt1">
+                <a class="privacy-policy" href="privacy-policy.html" target="_blank"><span style="margin: 30px">Privacy Policy</span></a>
+                <a class="terms-and-conditions" href="terms-and-conditions.html" target="_blank"><span class="footer-text term-and-conditions">Term and Conditions</span></a>
+              </div></div>
+            </section>
           </a>
       </div>
     </div></div>
+    <main>
+  <div class="swapper"></div>
+</main>
     <script src="js/anime.min.js" charset="utf-8"></script>
-    <script src="js/barba.min.js"></script>
     <script src="js/highlight.min.js" charset="utf-8"></script>
     <script src="js/twig.min.js"></script>
-    <script src="js/master.js" charset="utf-8"></script>
     <script src="js/script.js"></script>
     <script>
       js.ert.setup(function() {
@@ -187,6 +291,16 @@ A Wolff Brands - Website
           c = ++c % s.length;
           var e = document.querySelector('main .swapper');
           e.innerText = s[c];
+          e.style.color = getRandomColor(); // Call the getRandomColor() function to set a random color
+
+          function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+              color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+          }
           js.ert.refresh();
         }
         swap();
@@ -196,13 +310,7 @@ A Wolff Brands - Website
   </body>
 
 <footer>
-  <section>
-    <div class="footer">
-      <div class="wraper-footer">
-      <a href="privacy-policy.html" target="_blank"><span style="margin: 30px">Privacy Policy</span></a>
-      <a href="terms-and-conditions.html" target="_blank"><span class="footer-text term-and-conditions">Term and Conditions</span></a>
-    </div></div>
-  </section>
+
 </footer>
 
 </html>
