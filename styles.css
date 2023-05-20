@@ -4275,6 +4275,12 @@ code, .code {
 .ml7 {
     margin-left: 16rem;
 }
+.ml8 {
+    margin-left: 20rem;
+}
+.ml8 {
+    margin-left: 25rem;
+}
 .mr0 {
     margin-right: 0;
 }
@@ -4459,6 +4465,12 @@ code, .code {
 }
 .pl7-ns {
     padding-left: 16rem;
+}
+.pl8-ns {
+    padding-left: 20rem;
+}
+.pl9-ns {
+    padding-left: 25rem;
 }
 .pr0-ns {
     padding-right: 0;
