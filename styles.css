@@ -7273,9 +7273,10 @@ a:active {
     height: 150px;
   }
   .related-posts-img {
-    width: 280px;
     margin-left: 10px;
-    object-fit: cover;
+    object-fit: contain;
+    height: 100px;
+    aspect-ratio: 1/1;
   }
   #barba-wrapper {
       margin-right: 12rem;
@@ -7296,6 +7297,8 @@ a:active {
     #v-me2 {
       margin-top: 10px;
       margin-bottom: 10px;
+      background-color: white;
+      z-index: 9999;
     }
     #header-logo {
       display: flex;
@@ -7326,7 +7329,7 @@ a:active {
     #main-menu-dev2 {
       position: relative;
       overflow-y: auto;
-      background-color: white;
+      background-color: white !important;
     }
     #urban-gardening0 {
       display: none;
