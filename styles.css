@@ -6818,8 +6818,7 @@ blockquote {
     border-bottom: 1px solid #fff;
 }
 .toc a:hover {
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+
 }
 .menu-active {
     margin-left: 3rem;
@@ -7157,7 +7156,9 @@ article {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-
+.trans-r {
+  transform: translate(300px);
+}
 a:link {
   text-decoration: none;
 }
@@ -7174,12 +7175,6 @@ a:active {
   padding: 10px;
   transform: translate(190px, -450px);
 }
-#main-menu {
-
-}
-#urban-gardening {
-  display: none;
-}
 
 .summary-container {
   transform: translate(285px);
@@ -7188,6 +7183,9 @@ a:active {
   position: fixed;
   z-index: 1;
   width: 300px;
+}
+.push-up {
+  transform: translate(285px, -250px);
 }
 .back-button {
   display: flex;
@@ -7212,13 +7210,37 @@ a:active {
   background-color: white;
   width: 25%;
 }
+
 #ug1:hover #ug1b {
   display: grid;
 }
 #ug2:hover #ug2b {
   display: grid;
 }
-
+#ug3:hover #ug3b {
+  display: grid;
+}
+#ug4:hover #ug4b {
+  display: grid;
+}
+#ug5:hover #ug5b {
+  display: grid;
+}
+#ug6:hover #ug6b {
+  display: grid;
+}
+#ug7:hover #ug7b {
+  display: grid;
+}
+#ug8:hover #ug8b {
+  display: grid;
+}
+#ug9:hover #ug9b {
+  display: grid;
+}
+#ug10:hover #ug10b {
+  display: grid;
+}
 .wrapper {
   display: none;
   width: 100vw;
@@ -7238,9 +7260,42 @@ a:active {
   text-align: center;
 }
 
+@media screen and (max-width: 1500px) {
+  .related-posts {
+    display: grid;
+    width: 90%;
+  }
+  .r-post-single {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 90%;
+    height: 150px;
+  }
+  .related-posts-img {
+    width: 280px;
+    margin-left: 10px;
+    object-fit: cover;
+  }
+  #barba-wrapper {
+      margin-right: 12rem;
+  }
+}
+@media screen and (min-width: 959px) {
+  .back-menu0 {
+    display: none;
+  }
+}
 @media screen and (max-width: 959px) {
     #v-me {
       display: none;
+    }
+    #v-me1 {
+      height: auto;
+    }
+    #v-me2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
     #header-logo {
       display: flex;
@@ -7257,6 +7312,9 @@ a:active {
     .logo-img {
       width: 50px;
     }
+    .back-menu {
+      display: none;
+    }
     #header-logo {
       align-items: center;
       justify-content: center;
@@ -7265,5 +7323,21 @@ a:active {
     .wrapper {
       display: block;
     }
-
+    #main-menu-dev2 {
+      position: relative;
+      overflow-y: auto;
+      background-color: white;
+    }
+    #urban-gardening0 {
+      display: none;
+    }
+    #barba-wrapper {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
+@media screen and (max-height: 900px) {
+  #main-menu-dev2 {
+    overflow-y: scroll;
+  }
 }
