@@ -192,8 +192,6 @@ template {
 [hidden] {
     display: none;
 }
-
-
 .debug * {
     outline: 1px solid gold;
 }
@@ -1670,7 +1668,8 @@ html, body, div, section, main, footer, header, form, fieldset, legend, pre, cod
 .dt--fixed-l {
     table-layout: fixed;
     width: 100%}
-}.flex {
+}
+.flex {
     display: flex;
 }
 .inline-flex {
@@ -7218,4 +7217,53 @@ a:active {
 }
 #ug2:hover #ug2b {
   display: grid;
+}
+
+.wrapper {
+  display: none;
+  width: 100vw;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box>* {
+  flex: 1 1 160px;
+}
+.sum-box {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 959px) {
+    #v-me {
+      display: none;
+    }
+    #header-logo {
+      display: flex;
+    }
+    .header-cont1 {
+      margin: 0;
+    }
+    .header-cont2 {
+      padding: 0px;
+    }
+    .header-cont3 {
+      float: left;
+    }
+    .logo-img {
+      width: 50px;
+    }
+    #header-logo {
+      align-items: center;
+      justify-content: center;
+      grid-gap: 10px;
+    }
+    .wrapper {
+      display: block;
+    }
+
 }
